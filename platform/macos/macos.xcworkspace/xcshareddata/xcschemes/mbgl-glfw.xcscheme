@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-               BuildableName = "mbgl-offline"
-               BlueprintName = "mbgl-offline"
+               BlueprintIdentifier = "891F7E113501442B9830A876"
+               BuildableName = "mbgl-glfw"
+               BlueprintName = "mbgl-glfw"
                ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
+            BlueprintIdentifier = "891F7E113501442B9830A876"
+            BuildableName = "mbgl-glfw"
+            BlueprintName = "mbgl-glfw"
             ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
+            BlueprintIdentifier = "891F7E113501442B9830A876"
+            BuildableName = "mbgl-glfw"
+            BlueprintName = "mbgl-glfw"
             ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
+            BlueprintIdentifier = "891F7E113501442B9830A876"
+            BuildableName = "mbgl-glfw"
+            BlueprintName = "mbgl-glfw"
             ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

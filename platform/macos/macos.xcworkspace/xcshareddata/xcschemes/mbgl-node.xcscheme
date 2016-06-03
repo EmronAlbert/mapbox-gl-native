@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-               BuildableName = "mbgl-offline"
-               BlueprintName = "mbgl-offline"
+               BlueprintIdentifier = "68F3025BBD0545A3A0C884B7"
+               BuildableName = "mbgl-node.node"
+               BlueprintName = "mbgl-node"
                ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
-            ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
+            BlueprintIdentifier = "68F3025BBD0545A3A0C884B7"
+            BuildableName = "mbgl-node.node"
+            BlueprintName = "mbgl-node"
             ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7A70950FCCB40C88986306E"
-            BuildableName = "mbgl-offline"
-            BlueprintName = "mbgl-offline"
+            BlueprintIdentifier = "68F3025BBD0545A3A0C884B7"
+            BuildableName = "mbgl-node.node"
+            BlueprintName = "mbgl-node"
             ReferencedContainer = "container:../../build/macos/mbgl.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -24,7 +24,7 @@
     "mapbox-gl-shaders": "mapbox/mapbox-gl-shaders#09ee512cd59a8fb1a241c78833b7c8022bf4f263",
     "mapbox-gl-style-spec": "mapbox/mapbox-gl-style-spec#2461efc3d883f2f2e56a6c6b2bfd7d54bbfe9f86",
     "mapbox-gl-test-suite": "mapbox/mapbox-gl-test-suite#ce8146c048487dab444d92ce06ef0b0ca8515c73",
-    "node-gyp": "^3.3.1",
+    "node-cmake": "^1.2.1",
     "request": "^2.72.0",
     "tape": "^4.5.1"
   },
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "preinstall": "npm install node-pre-gyp",
-    "install": "node-pre-gyp install --fallback-to-build=false || make node",
+    "install": "node-pre-gyp install --fallback-to-build=false || BUILDTYPE=Release make node",
     "test": "tape platform/node/test/js/**/*.test.js",
     "test-suite": "node platform/node/test/render.test.js && node platform/node/test/query.test.js"
   },

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "{{BLUEPRINT_IDENTIFIER}}"
-               BuildableName = "action_after_build"
-               BlueprintName = "action_after_build"
-               ReferencedContainer = "container:build/binding.xcodeproj">
+               BuildableName = "mbgl-node.node"
+               BlueprintName = "mbgl-node"
+               ReferencedContainer = "container:build/osx/mbgl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,15 +45,15 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         FilePath = "{{NODE_PATH}}/node">
+         FilePath = "/Users/kkaefer/.nvm/versions/node/v6.0.0/bin/node">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "{{BLUEPRINT_IDENTIFIER}}"
-            BuildableName = "action_after_build"
-            BlueprintName = "action_after_build"
-            ReferencedContainer = "container:build/binding.xcodeproj">
+            BuildableName = "mbgl-node.node"
+            BlueprintName = "mbgl-node"
+            ReferencedContainer = "container:build/osx/mbgl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "{{BLUEPRINT_IDENTIFIER}}"
-            BuildableName = "action_after_build"
-            BlueprintName = "action_after_build"
-            ReferencedContainer = "container:build/binding.xcodeproj">
+            BuildableName = "mbgl-node.node"
+            BlueprintName = "mbgl-node"
+            ReferencedContainer = "container:build/osx/mbgl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

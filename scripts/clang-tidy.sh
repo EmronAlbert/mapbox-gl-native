@@ -30,5 +30,6 @@ export CLANG_TIDY
 export -f check_tidy
 
 echo "Running clang-tidy checks... (this might take a while)"
-git ls-files '../../../src/mbgl/*.cpp' '../../../platform/*.cpp' '../../../test/*.cpp' | \
+CDUP=$(git rev-parse --show-cdup)
+git ls-files "${CDUP}/src/mbgl/*.cpp" "${CDUP}/platform/*.cpp" "${CDUP}/test/*.cpp" | \
     xargs -I{} -P ${JOBS} bash -c 'check_tidy' {}
